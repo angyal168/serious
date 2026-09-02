@@ -23,6 +23,21 @@ Then type `/serious` before any high-stakes work.
 Deactivates when you switch to brainstorming or exploration.
 
 
+<!-- forge-plugin-install:v1 -->
+## Install as a Claude Code plugin
+
+One command instead of copying a file:
+
+```
+/plugin marketplace add angyal168/logos-protocol
+/plugin install serious@forge-commands
+```
+
+That installs `/serious` from the `forge-commands` marketplace, which also carries the
+other six free commands. The manual copy above still works and stays supported.
+
+<!-- /forge-plugin-install:v1 -->
+
 <!-- forge-usage:v1 -->
 
 ## What it actually changes
